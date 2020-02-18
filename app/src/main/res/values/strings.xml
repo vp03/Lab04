@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab04</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="text_3">Text 3</string>
+    <string name="text_4">Text 4</string>
+    <string name="text_2">Text 2</string>
+    <string name="text_1">Text 1</string>
+    <string name="next_view">Next View</string>
+    <string name="blank_1" />
+    <string name="blank_1" />
+    <string name="blank_2" />
+</resources>
