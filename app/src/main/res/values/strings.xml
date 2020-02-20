@@ -9,4 +9,40 @@
     <string name="blank_1" />
     <string name="blank_1" />
     <string name="blank_2" />
+    <string name="text_1">Text 1</string>
+    <string name="text_2">Text 2</string>
+    <string name="long_text">Miss Mary Mack Mack Mack\n
+    All dressed in black, black, black\n
+    With silver buttons, buttons, buttons\n
+    All down her back, back, back.\n\n
+
+    She asked her mother, mother, mother\n
+    For 50 cents, cents, cents\n
+    To see the elephants, elephants, elephants\n
+    Jump over the fence, fence, fence.\n\n
+
+    They jumped so high, high, high\n
+    They reached the sky, sky, sky\n
+    And they didn’t come back, back, back\n
+    ‘Til the 4th of July, ly, ly!</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_5">Button 5</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_1">Button 1</string>
+    <string name="loud">Loud</string>
+    <string name="reserved">Reserved</string>
+    <string name="outgoing">Outgoing</string>
+    <string name="caring">Caring</string>
+    <string name="funny">Funny</string>
+    <string name="smart">Smart</string>
+    <string name="sweet">Sweet</string>
+    <string name="considerate">Considerate</string>
+    <string name="neat">Neat</string>
+    <string name="unselfish">Unselfish</string>
+    <string name="loyal">Loyal</string>
+    <string name="brave">Brave</string>
+    <string name="honest">Honest</string>
+    <string name="shy">Shy</string>
 </resources>

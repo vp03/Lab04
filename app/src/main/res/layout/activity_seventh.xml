@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:background="#ed9fd6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horz_guideline"
+        app:layout_constraintGuide_percent="0.2"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horz_guideline2"
+        app:layout_constraintGuide_percent="0.3"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horz_guideline3"
+        app:layout_constraintGuide_percent="0.4"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horz_guideline4"
+        app:layout_constraintGuide_percent="0.9"
+        android:orientation="horizontal"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_guideline"
+        app:layout_constraintGuide_percent="0.1"
+        android:orientation="vertical"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_guideline2"
+        app:layout_constraintGuide_percent="0.9"
+        android:orientation="vertical"/>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/horz_guideline4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/vert_guideline"
+        app:layout_constraintRight_toRightOf="@+id/vert_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/horz_guideline3"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#42c2f5"
+            android:textSize="40dp">
+
+            <CheckBox android:id="@+id/checkbox_sweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sweet"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_smart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/smart"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_funny"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/funny"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_caring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/caring"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_outgoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/outgoing"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>\
+
+            <CheckBox android:id="@+id/checkbox_reserved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reserved"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_loud"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loud"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_shy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shy"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_honest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/honest"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_brave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/brave"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_loyal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loyal"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_unselfish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unselfish"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_neat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/neat"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_considerate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/considerate"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+            <CheckBox android:id="@+id/checkbox_loyal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Loyal"
+                android:textSize="40dp"
+                android:textColor="#ffffff"
+                android:buttonTint="#ffffff"
+                android:onClick="onCheckboxClicked"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ed9fd6"
+        android:text="What words define you?"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="@+id/horz_guideline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_view"
+        android:textAllCaps="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/horz_guideline2"
+        android:textSize="10sp"
+        android:background="#f54284"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
