@@ -16,13 +16,58 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
+        <activity android:name=".SecondActivity"
+            android:label="Second Activity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.MainActivity"/>
         </activity>
+
+        <activity android:name=".ThirdActivity"
+            android:label="Third Activity"
+            android:parentActivityName=".SecondActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.SecondActivity"/>
+        </activity>
+
+        <activity android:name=".FourthActivity"
+            android:label="Fourth Activity"
+            android:parentActivityName=".ThirdActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.ThirdActivity"/>
+        </activity>
+
+        <activity android:name=".FifthActivity"
+            android:label="Fifth Activity"
+            android:parentActivityName=".FourthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.FourthActivity"/>
+        </activity>
+
+        <activity android:name=".SixthActivity"
+            android:label="Sixth Activity"
+            android:parentActivityName=".FifthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.FifthActivity"/>
+        </activity>
+
+        <activity android:name=".SeventhActivity"
+            android:label="Seventh Activity"
+            android:parentActivityName=".SixthActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pentakotavishu.lab04.SixthActivity"/>
+        </activity>
+
     </application>
+
+
 
 </manifest>
